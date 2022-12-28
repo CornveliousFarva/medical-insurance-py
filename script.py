@@ -15,7 +15,11 @@
 # BMI Factor
 # Rewrite age to old age 
 # Add 3.1 to the BMI
+# Calculate new insurance cost
+# Change between new and old insurance cost
 
+# Gender Identity Factor
+# Change gender identity variable
 # Calculate new insurance cost
 # Change between new and old insurance cost
 
