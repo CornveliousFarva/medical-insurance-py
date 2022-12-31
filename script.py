@@ -33,8 +33,12 @@ new_insurance_cost = 250 * age - 128 * gender_identity + 370 * bmi + 425 * num_o
 change_in_insurance_cost = new_insurance_cost - insurance_cost
 print("The change in estimated insurance cost after increasing BMI by 3.1 is " + str(change_in_insurance_cost) + " dollars.")
 
-# Gender Identity Factor
+# Gender Identity Factor (Note: as there is no data on nonbinary people, this is solely based on male and female)
 # Change gender identity variable
+gender_identity = 1
 # Calculate new insurance cost
+new_insurance_cost = 250 * age - 128 * gender_identity + 370 * bmi + 425 * num_of_children + 24000 * smoker - 12500
 # Change between new and old insurance cost
+change_in_insurance_cost = new_insurance_cost - insurance_cost
+print("The change in estimated insurance cost for being male instead of female is " + str(change_in_insurance_cost) + " dollars.")
 
