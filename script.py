@@ -11,7 +11,9 @@ num_of_children = 3
 bmi = 26.2
 
 # Insurance Formula
+insurance_cost = 250 * age - 128 * gender_identity +370 * bmi + 425 * num_of_children + 24000 * smoker - 12500
 # Print out of insurance cost
+print("This person's insurance cost is " + str(insurance_cost) + " dollars.")
 
 # Adding 4 years
 # Calculate new insurance cost
