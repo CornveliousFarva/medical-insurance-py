@@ -1,9 +1,14 @@
 #Initial Variables:
 #Age
+age = 28
 #Gender Identity
+gender_identity = 0
 #Smoker 
+smoker = 0
 #Number of Children
-#Body Mass Index
+num_of_children = 3
+#Body Mass Index (BMI)
+bmi = 26.2
 
 # Insurance Formula
 # Print out of insurance cost
