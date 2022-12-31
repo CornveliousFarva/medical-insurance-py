@@ -16,8 +16,11 @@ insurance_cost = 250 * age - 128 * gender_identity +370 * bmi + 425 * num_of_chi
 print("This person's insurance cost is " + str(insurance_cost) + " dollars.")
 
 # Adding 4 years
+age += 4
 # Calculate new insurance cost
+new_insurance_cost = 250 * age -128 * gender_identity + 370 * bmi + 425 * num_of_children + 24000 * smoker - 12500
 # Change between new and old insurance costs
+change_in_insurance_cost = new_insurance_cost -insurance_cost
 
 # BMI Factor
 # Rewrite age to old age 
